@@ -113,6 +113,10 @@
          Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Touch the sensor to unlock, even when the screen is off. Proximity sensor prevents accidental unlocking.</string>
 
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+
     <!-- Navigation bar hint -->
     <string name="show_navbar_hint_title">Navigation hint</string>
     <string name="show_navbar_hint_summary">Show navigation hint bar at the bottom of the screen</string>
