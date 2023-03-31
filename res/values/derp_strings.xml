@@ -35,6 +35,10 @@
     <string name="update_package" translatable="false">org.lineageos.updater</string>
     <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
 
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Languages, gestures, updater, time, backup</string>
 
