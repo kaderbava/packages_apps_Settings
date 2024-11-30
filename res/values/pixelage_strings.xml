@@ -61,6 +61,12 @@
     <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
     <string name="heads_up_off">Heads up is disabled globally</string>
 
+    <!-- Preference and settings suggestion title text for screen off UDFPS -->
+    <string name="ambient_display_screen_off_udfps_title">Long press on fingerprint sensor to unlock device</string>
+
+    <!-- Summary text for screen off UDFPS -->
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor</string>
+
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
     <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
