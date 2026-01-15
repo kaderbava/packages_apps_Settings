@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <style name="LockPatternSizeHeaderStyle" parent="android:style/TextAppearance.Material.Subhead">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@color/primary_dark_material_light</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    
+    <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay.SettingsBase">
+        <item name="customPreferenceStyle">@style/CustomPreference</item>
+    </style>
+    <style name="CustomPreference" parent="Preference.Material">
+        <item name="allowDividerAbove">false</item>
+    </style>
+    
+    <style name="HomepageTitleText" parent="CollapsingToolbarTitle.Expanded">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:textColor">@android:color/system_accent1_400</item>
+         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+         <item name="android:layout_marginBottom">@dimen/homepage_title_margin_bottom</item>
+         <item name="android:layout_marginHorizontal">@dimen/homepage_title_margin_horizontal</item>
+         <item name="android:textSize">35sp</item>
+         <item name="android:textStyle">bold</item>
+     </style>
+ 
+     <style name="HomepageSubTitleText" parent="CollapsingToolbarTitle.Expanded">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+         <item name="android:layout_marginBottom">@dimen/homepage_title_margin_bottom</item>
+         <item name="android:layout_marginHorizontal">@dimen/homepage_title_margin_horizontal</item>
+         <item name="android:textSize">22sp</item>
+         <item name="android:fontWeight">500</item>
+     </style>
+    
+    <!-- custom Action Bar -->
+     <style name="custom_toolbar_Expanded" parent="custom_toolbar_Collapsed">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:layout_marginTop">75dp</item>
+         <item name="android:layout_marginBottom">@dimen/homepage_title_margin_bottom</item>
+         <item name="android:layout_marginStart">@dimen/homepage_title_margin_horizontal</item>
+         <item name="android:layout_marginEnd">75dp</item>
+         <item name="android:textSize">36sp</item>
+         <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+         <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+     </style>
+     <style name="custom_toolbar_Contextual" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+         <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+         <item name="android:textSize">24sp</item>
+         <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+     </style>   
+     <style name="custom_toolbar_Collapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+         <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+         <item name="android:textSize">20sp</item>
+         <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+     </style>
+</resources>

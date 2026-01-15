@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dashboard_bg"
+    android:padding="16dp"
+    android:paddingBottom="32dp"
+    android:clipToPadding="false">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/customImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Dashboard"
+            android:text="Apply Custom Image"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/customImageSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:background="@null"
+            android:theme="@style/Theme.Material3.DynamicColors.DayNight" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/importImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Import Image/GIF from Gallery"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        style="@style/CustomButtonStyle" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/transparency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Dashboard"
+            android:text="Hide Wallpaper View"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/transparencySwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:background="@null"
+            android:theme="@style/Theme.Material3.DynamicColors.DayNight" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Dashboard"
+        android:text="Adjust Blur Intensity"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/blurSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0" />
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Dashboard"
+        android:text="Adjust Wallpaper Dim"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/dimSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:max="100"
+        android:progress="50" />
+
+</LinearLayout>

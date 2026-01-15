@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Package details -->
+    <string name="package_details_group_title">تفاصيل الحزمة</string>
+    <string name="package_name">اسم الحزمة</string>
+    <string name="package_version">إصدار الحزمة</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">تصحيح الأخطاء كجذر</string>
+    <string name="adb_enable_summary_root">السماح بتشغيل تصحيح أخطاء أندرويد كجذر</string>
+
+    <!-- General -->
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="longpress_to_clipboard">اضغط مطولاً للنسخ</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">عرض سجل تاريخ الإشعارات</string>
+     
+     <!-- Density category -->
+    <string name="density_category">خيارات الكثافة</string>
+    
+    <!-- About phone screen, Project Infinity X version -->
+    <string name="about_device_name">الجهاز</string>
+    <string name="infinity_version">إصدار إنفينيتي</string>
+    <string name="infinity_version_default">غير معروف</string>
+    <string name="keywords_infinity_version">إصدار إنفينيتي X, إصدار إنفينيتي X</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">تاريخ البناء</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">تاريخ البناء, معلومات البناء</string>
+
+    <!-- Hardware info -->
+    <string name="soc_model">نموذج SoC</string>
+    <string name="total_ram">إجمالي الذاكرة العشوائية</string>
+
+    <!-- Infinity Suite -->
+     <string name="infinity_suite_dash_title">حزمة إنفينيتي</string>
+     <string name="infinity_suite_summary">تخصيص جهازك أكثر</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">معلومات الراديو</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">أقل من دقيقة واحدة</string> 
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s اليوم</string>
+    
+    <string name="gms_services_title">خدمات جوجل</string>
+    <string name="gms_services_summary">خدمات جوجل والتفضيلات</string>
+    <string name="wellbeing_title">الرفاهية الرقمية</string>
+    <string name="wellbeing_summary">الرفاهية الرقمية وضوابط الأبوة</string>
+
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">سطوع تلقائي لمرة واحدة</string>
+    <string name="auto_brightness_one_shot_summary">سيتم ضبط السطوع فقط عند لحظة تشغيل الشاشة</string>
+     
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">السحب لالتقاط لقطة شاشة</string>
+    <string name="three_finger_gesture_summary">اسحب لأسفل بثلاثة أصابع لالتقاط لقطة شاشة</string> 
+    
+    <!-- Battery temperature -->
+    <string name="battery_temperature">حرارة البطارية</string>
+    <string name="battery_stat_temp">الحرارة</string>
+    <string name="battery_stat_capacity">السعة</string>
+    <string name="battery_stat_cycle">الدورة</string>
+    <string name="status_unavailable">غير معروف</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_title">ضوء LED للبطارية</string>
+    <string name="battery_light_summary">تشغيل ضوء LED أثناء الشحن أو الوميض عند انخفاض البطارية</string>
+
+    <!-- Timeout entries -->
+    <string name="timeout_summary_never">أبداً</string>
+    <string name="timeout_summary_15secs">15 ثانية</string>
+    <string name="timeout_summary_30secs">30 ثانية</string>
+    <string name="timeout_summary_1min">1 دقيقة</string>
+    <string name="timeout_summary_2mins">2 دقيقة</string>
+    <string name="timeout_summary_5mins">5 دقائق</string>
+    <string name="timeout_summary_10mins">10 دقائق</string>
+    <string name="timeout_summary_30mins">30 دقيقة</string>
+    <string name="timeout_summary_1hour">1 ساعة</string>
+    <string name="timeout_summary_2hours">2 ساعة</string>
+    <string name="timeout_summary_4hours">4 ساعات</string>
+    <string name="timeout_summary_8hours">8 ساعات</string>
+    <string name="timeout_summary_12hours">12 ساعة</string>
+    <string name="timeout_summary_24hours">24 ساعة</string>
+    <string name="timeout_summary_36hours">36 ساعة</string>
+    <string name="timeout_summary_48hours">48 ساعة</string>
+    <string name="timeout_summary_72hours">72 ساعة</string>
+    
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">العمليات الخلفية</string>
+
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">فتح القفل تلقائيًا إذا قمت بإدخال PIN صحيح. هذا أقل أمانًا قليلاً من النقر على Enter للتأكيد.</string>
+    
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">إظهار خطأ النمط</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">إظهار نقاط النمط</string>
+    
+    <!-- Lock screen pattern size -->
+    <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
+    <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string>
+    <string name="lock_pattern_size_5" translatable="false">5 \u00d7 5</string>
+    <string name="lock_pattern_size_6" translatable="false">6 \u00d7 6</string>
+    <string name="lock_settings_picker_pattern_size_message">اختر حجم النمط</string>
+    
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">تخطيط عشوائي</string>
+    <string name="unlock_scramble_pin_layout_summary">ترتيب تخطيط PIN عشوائيًا عند فتح الجهاز</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">إعدادات التدوير</string>
+    <string name="display_rotation_enabled">التدوير التلقائي مفعل</string>
+    <string name="display_rotation_disabled">التدوير التلقائي معطل</string>
+    <string name="display_rotation_unit">درجات</string>
+    <string name="display_rotation_category_title">أنماط التدوير</string>
+    <string name="display_rotation_0_title">0 درجة</string>
+    <string name="display_rotation_90_title">90 درجة</string>
+    <string name="display_rotation_180_title">180 درجة</string>
+    <string name="display_rotation_270_title">270 درجة</string>
+    
+    <!-- Restrict USB -->
+    <string name="trust_restrict_usb_title">تقييد USB</string>
+    <string name="trust_restrict_usb_summary">التحكم في دعم أجهزة USB الطرفية مثل أجهزة الإدخال (الفأرة، لوحات المفاتيح، عصي التحكم) وأجهزة التخزين.</string>
+    <string name="trust_restrict_usb_always">رفض اتصالات USB</string>
+    <string name="trust_restrict_usb_keyguard">السماح باتصالات USB عند فتح القفل</string>
+    <string name="trust_restrict_usb_disabled">السماح دائماً باتصالات USB</string>
+    
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">كامل</string>
+    <string name="back_height_high_label">أسفل</string>
+    <string name="back_height_title">ارتفاع إيماءة الرجوع</string>
+    <string name="back_height_summary">ارتفاع الشاشة الصالح لإيماءة الرجوع</string>
+
+    <!-- Misc gesture settings -->
+     <string name="back_gesture_haptic_title">ردود فعل هابتيك</string>
+     <string name="back_gesture_haptic_summary">تمكين تأثير النقرة الهابتيكية لإيماءة الرجوع</string>
+     
+     <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">رسوميات إيماءة الرجوع</string>
+    <string name="back_gesture_arrow_summary">إظهار سهم متحرك لإيماءة الرجوع</string>
+
+    <!-- Gesture Navigation -->
+    <string name="gesture_settings_title">التنقل بالإيماءات</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">صوت الشحن</string>
+    <string name="charging_vibro_title">اهتزاز الشحن</string>
+          
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">الحد الأدنى للوقت بين أصوات الإشعارات</string>
+    <string name="app_notification_sound_timeout_summary_template">السماح بالأصوات أو الاهتزاز مرة واحدة على الأكثر كل <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">لا توجد قيود</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 ثواني</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 ثانية</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 دقيقة</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 دقائق</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 دقائق</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 دقيقة</string>
+    
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">منع الاستيقاظ العرضي</string>
+    <string name="proximity_wake_summary">فحص مستشعر القرب قبل استيقاظ الشاشة</string>
+    
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">مصباح سريع</string>
+    <string name="power_button_torch_summary">عند إطفاء الشاشة، الضغط المطول على زر الطاقة سيؤدي إلى تشغيل المصباح</string>
+
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">استخدام GPS المساعد</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">تنزيل بيانات مساعدة الأقمار الصناعية من الإنترنت مما يمكن أن يحسن أداء بدء تشغيل GPS بشكل كبير. بالنسبة للمكالمات الطارئة، يتم السماح دائمًا بـ GPS المساعد.</string>
+    
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+     <string name="fingerprint_enroll_find_sensor_message_front">حدد موقع مستشعر البصمة على
+          الجزء الأمامي من هاتفك.</string>
+     <string name="fingerprint_enroll_find_sensor_message_rear">حدد موقع مستشعر البصمة على
+          الجزء الخلفي من هاتفك.</string>
+     <string name="fingerprint_enroll_find_sensor_message_side">حدد موقع مستشعر البصمة على
+          جانب هاتفك.</string>
+          
+     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint
+     sensor -->
+     <string name="fingerprint_enroll_touch_dialog_message_front">المس المستشعر على الجزء الأمامي من
+          هاتفك.</string>
+     <string name="fingerprint_enroll_touch_dialog_message_rear">المس المستشعر على الجزء الخلفي من
+          هاتفك.</string>
+     <string name="fingerprint_enroll_touch_dialog_message_side">المس المستشعر على جانب
+          هاتفك.</string>
+    
+    <!-- X-Reality Engine -->
+     <string name="x_reality_engine_mode_title">محرك X-Reality</string>     
+     <string name="x_reality_engine_mode_summary">تمكين وضع العرض المستوحى من محرك برافيا</string>
+ 
+     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+      <string name="color_mode_balance_category">توازن اللون</string>
+      <string name="color_mode_balance_red">قوة الأحمر</string>
+      <string name="color_mode_balance_green">قوة الأخضر</string>
+      <string name="color_mode_balance_blue">قوة الأزرق</string>
+      <string name="keywords_color_balance">لون، توازن اللون، تصحيح اللون، أحمر، أخضر، أزرق،
+           LiveDisplay</string>
+    
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">إجبار LTE CA</string>
+    <string name="force_lte_ca_summary">إجبار تجميع ناقل LTE على العمل</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">صوت التطبيق</string>
+    <string name="app_volume_title">تحكم صوت لكل تطبيق</string>
+    <string name="app_volume_summary">السماح بتعيين مستويات صوت مختلفة لكل تطبيق</string>
+
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">السماح للعملاء باستخدام VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">السماح لعملاء النقاط الساخنة باستخدام اتصالات VPN الخاصة بهذا الجهاز للاتصال المنبع</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">التدوير بين الأنماط</string>
+    <string name="prevent_ringing_option_cycle_summary">تشغيل (التدوير بين الأنماط)</string>
+     
+     <!-- Units -->
+    <string name="unit_milliseconds">ميلي ثانية</string>
+    <string name="unit_pixels">dp</string>
+    <string name="unit_hz">هرتز</string>
+     
+     <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">نمط اهتزاز النغمة</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">مخصص</string>
+    <string name="custom_vibration_pattern_title">نمط اهتزاز مخصص</string>
+    <string name="custom_vibration_pattern_summary">تعيين نمط اهتزاز مخصص</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">زيادة حجم نغمة الرنين</string>
+    <string name="increasing_ring_min_volume_title">حجم البداية</string>
+    <string name="increasing_ring_ramp_up_time_title">وقت الزيادة</string>
+    
+    <!-- App lock -->
+    <string name="app_lock_title">قفل التطبيق</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> تطبيق محمي</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> تطبيقات محمية</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">فتح القفل</string>
+    <string name="enable_debugging">تمكين تصحيح الأخطاء</string>
+    <string name="disable_debugging">تعطيل تصحيح الأخطاء</string>
+    <string name="app_lock_packages_title">التطبيقات المحمية</string>
+    <string name="app_lock_packages_summary">حدد التطبيقات لحمايتها باستخدام القياسات الحيوية أو بيانات اعتماد الجهاز</string>
+    <string name="app_lock_timeout_title">مهلة القفل التلقائي</string>
+    <string name="app_lock_timeout_summary">مدة الوقت التي بعدها يجب قفل التطبيق غير المقفل في الخلفية</string>
+    <string name="app_lock_notifications_title">إخفاء الإشعارات</string>
+    <string name="app_lock_notifications_summary">سيتم إخفاء محتوى الإشعار وطيها للتطبيقات المحددة عندما تكون مقفلة. سيتم تعطيل إشعارات الرأس تلقائيًا.</string>
+    <string name="app_lock_notifications_disabled_summary">قم بحماية التطبيق أولاً</string>
+    <string name="app_lock_biometrics_allowed_title">تمكين القياسات الحيوية لفتح القفل</string>
+    <string name="app_lock_footer_text">سيتم إغلاق الفقاعات تلقائيًا بعد المهلة</string>
+    <string name="enable_protection">تمكين الحماية</string>
+    <string name="hide_from_launcher_title">إخفاء من قائمة التشغيل</string>
+    <string name="hide_from_launcher_summary">منع هذا التطبيق من الظهور في أي قائمة تشغيل. يتطلب إعادة تشغيل قائمة التشغيل لتفعيل التغييرات.</string>
+    <string name="custom_timeout_summary_5secs">5 ثواني</string>
+    <string name="custom_timeout_summary_10secs">10 ثواني</string>
+    
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">وضع النوم</string>
+    <string name="sleep_mode_summary_on">تشغيل / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">إيقاف / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">نمط الرنين</string>
+    <string name="sleep_mode_ringer_off_title">عدم التغيير</string>
+    <string name="sleep_mode_ringer_vibrate_title">اهتزاز</string>
+    <string name="sleep_mode_ringer_dnd_title">عدم الإزعاج</string>
+    <string name="sleep_mode_ringer_silent_title">صامت</string>
+    <string name="sleep_mode_schedule_sunset">غروب الشمس</string>
+    <string name="sleep_mode_schedule_sunrise">شروق الشمس</string>
+    <string name="sleep_mode_schedule_mixed_sunset">يتم التشغيل من الغروب إلى وقت مخصص</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">يتم التشغيل من وقت مخصص إلى الشروق</string>
+    <string name="sleep_mode_toggles_title">المفاتيح</string>
+    <string name="sleep_mode_wifi_toggle_title">إيقاف Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">تعطيل Wi-Fi عند تشغيل وضع النوم</string>
+    <string name="sleep_mode_bluetooth_toggle_title">إيقاف البلوتوث</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">تعطيل البلوتوث عند تشغيل وضع النوم</string>
+    <string name="sleep_mode_cellular_toggle_title">إيقاف بيانات الهاتف</string>
+    <string name="sleep_mode_cellular_toggle_summary">تعطيل بيانات الهاتف عند تشغيل وضع النوم</string>
+    <string name="sleep_mode_location_toggle_title">إيقاف الموقع</string>
+    <string name="sleep_mode_location_toggle_summary">تعطيل الموقع عند تشغيل وضع النوم</string>
+    <string name="sleep_mode_sensors_toggle_title">إيقاف أجهزة الاستشعار</string>
+    <string name="sleep_mode_sensors_toggle_summary">تعطيل أجهزة الاستشعار عند تشغيل وضع النوم</string>
+    <string name="sleep_mode_display_text">يسمح لك وضع النوم بتعطيل بعض الخدمات للمساعدة في توفير البطارية وإسكات هاتفك أثناء النوم.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">تشغيل الآن</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">إيقاف الآن</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">تشغيل حتى الشروق</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">إيقاف حتى الغروب</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">تشغيل حتى <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">إيقاف حتى <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">جدول الشاشة الدائمة</string>
+    <string name="always_on_display_schedule_sunset">غروب الشمس</string>
+    <string name="always_on_display_schedule_sunrise">شروق الشمس</string>
+    <string name="disabled">معطل</string>
+    <string name="always_on_display_schedule_mixed_sunset">يتم التشغيل من الغروب إلى وقت</string>
+    <string name="always_on_display_schedule_mixed_sunrise">يتم التشغيل من وقت إلى الشروق</string>
+
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">تعتيم DC</string>
+    <string name="dc_dimming_info">يقلل من إجهاد العين في ظروف الإضاءة المنخفضة عن طريق تقليل وميض الشاشة. قد يؤدي إلى انخفاض جودة الصورة وإنتاج لون ضعيف، أو استهلاك طاقة أعلى.</string>
+    <string name="dc_dimming_main_switch_title">استخدام تعتيم DC</string>
+    <string name="keywords_display_dc_dimming">تعتيم dc، مضاد، وميض، عين، إجهاد</string>
+    
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_hint_title">تلميح شريط التنقل</string>
+    <string name="show_navbar_hint_summary">إظهار شريط تلميح التنقل في أسفل الشاشة</string>
+    
+    <!-- Navigation Bar -->
+    <string name="navbar_layout_category_title">التخطيط</string>
+    <string name="navbar_invert_layout_title">عكس التخطيط</string>
+    <string name="navbar_invert_layout_summary">يعكس تخطيط شريط التنقل والعناصر الأخرى، مثل محول IME</string>
+    
+    <!-- Navigation bar taskbar -->
+    <string name="navigation_bar_enable_taskbar_title">شريط المهام</string>
+    <string name="navigation_bar_enable_taskbar_summary">إظهار شريط المهام مع وضع التنقل المحدد</string>
+    
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">طول الحبة</string>
+    <string name="short_label">قصير</string>
+    <string name="long_label">طويل</string>
+    
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">نصف قطر الحبة</string>
+    <string name="thin_label">رفيع</string>
+    <string name="thick_label">سميك</string>
+     
+     <!-- Floating rotation button -->
+     <string name="enable_floating_rotation_button_title">استخدام زر التدوير العائم</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">صوت لقطة الشاشة</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">خطوات الصوت</string>
+    <string name="volume_steps_summary">التحكم في دقة كل تيار</string>
+    <string name="max_music_volume_title">الوسائط</string>
+    <string name="max_call_volume_title">المكالمات</string>
+    <string name="max_alarm_volume_title">المنبهات</string>
+    <string name="steps_unit">خطوات</string>
+    
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">الإيقاف الذكي</string>
+    <string name="adaptive_playback_enabled">استخدام الإيقاف الذكي</string>
+    <string name="adaptive_playback_disabled_summary">إيقاف</string>
+    <string name="adaptive_playback_intro_text">يقوم بإيقاف الوسائط تلقائيًا عند كتم الصوت وسيستأنف التشغيل تلقائيًا عند استعادة الصوت ضمن الوقت المحدد.</string>
+    <string name="adaptive_playback_timeout_title">استخدام مهلة قدرها</string>
+    <string name="adaptive_playback_timeout_none">لا توجد مهلة</string>
+    <string name="adaptive_playback_timeout_none_summary">تشغيل (لا توجد مهلة)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 ثانية</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">تشغيل (30 ثانية)</string>
+    <string name="adaptive_playback_timeout_1_min">1 دقيقة</string>
+    <string name="adaptive_playback_timeout_1_min_summary">تشغيل (1 دقيقة)</string>
+    <string name="adaptive_playback_timeout_2_min">2 دقيقة</string>
+    <string name="adaptive_playback_timeout_2_min_summary">تشغيل (2 دقيقة)</string>
+    <string name="adaptive_playback_timeout_5_min">5 دقائق</string>
+    <string name="adaptive_playback_timeout_5_min_summary">تشغيل (5 دقائق)</string>
+    <string name="adaptive_playback_timeout_10_min">10 دقائق</string>
+    <string name="adaptive_playback_timeout_10_min_summary">تشغيل (10 دقائق)</string>
+    
+    <!-- Partial Screenshot -->
+    <string name="click_partial_screenshot_title">النقر لالتقاط لقطة شاشة جزئية</string>
+    <string name="click_partial_screenshot_summary">النقر القصير على خفض الصوت والطاقة لالتقاط لقطة شاشة جزئية</string>
+
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">شبكة مخفية</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">لن يظهر اسم نقطة اتصال الهاتف المحمول في قائمة شبكات WLAN المتاحة.</string>
+    <string name="wifi_hotspot_client_manager_title">الأجهزة المتصلة</string>
+    <string name="wifi_hotspot_client_manager_summary">سرد وإدارة الأجهزة المتصلة بالنقطة الساخنة</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">سرد الأجهزة المتصلة بالنقطة الساخنة</string>
+    <string name="wifi_hotspot_client_limit_title">حد الأجهزة المتصلة</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">الأجهزة المحظورة</string>
+    <string name="wifi_hotspot_connected_clients_list_title">الأجهزة المتصلة</string>
+    <string name="wifi_hotspot_block_client_dialog_title">حظر الجهاز</string>
+    <string name="wifi_hotspot_block_client_dialog_text">هذا الإجراء سيفصل \"<xliff:g id="device_name">%1$s</xliff:g>\" من هذا الجهاز ويضيفه إلى القائمة السوداء</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">إلغاء حظر الجهاز</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">سيتمكن الجهاز \"<xliff:g id="device_name">%1$s</xliff:g>\" من الاتصال بهذه النقطة الساخنة</string>
+    <string name="wifi_hotspot_client_manager_footer_text">لا توجد أجهزة متاحة حاليًا. سيتم سرد الأجهزة المتصلة والمحظورة هنا عند توفرها.</string>
+    
+    <!-- Charging control settings -->
+    <string name="charging_control_title">تحكم الشحن</string>
+    <string name="charging_control_summary">تخصيص جدول الشحن وحدود البطارية</string>
+    <string name="charging_control_enable_title">تمكين تحكم الشحن</string>
+    <string name="charging_control_mode_title">وضع الشحن</string>
+    <string name="charging_control_mode_auto_title">جدول تلقائي</string>
+    <string name="charging_control_mode_auto_summary">تحديد وقت بدء الشحن تلقائيًا بناءً على المنبهات المحددة</string>
+    <string name="charging_control_mode_custom_title">جدول مخصص</string>
+    <string name="charging_control_mode_custom_summary">تعيين وقت مستهدف للشحن الكامل</string>
+    <string name="charging_control_mode_limit_title">تحديد الشحن</string>
+    <string name="charging_control_mode_limit_summary">تحديد الشحن إلى نسبة مئوية معينة</string>
+    <string name="charging_control_start_time_title">وقت البدء</string>
+    <string name="charging_control_start_time_summary">ينشط تحكم الشحن عند بدء الشحن بعد %s</string>
+    <string name="charging_control_target_time_title">الوقت المستهدف للشحن الكامل</string>
+    <string name="charging_control_target_time_summary">ستكون البطارية مشحونة بالكامل بحلول %s</string>
+    <string name="charging_control_limit_title">الحد</string>
+    <string name="reset">إعادة تعيين</string>
+    
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">حساسية اللمس العالية</string>
+    <string name="high_touch_sensitivity_summary">زيادة حساسية الشاشة اللمسية بحيث يمكن استخدامها أثناء ارتداء القفازات</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">تحويم الشاشة اللمسية</string>
+    <string name="touchscreen_hovering_summary">يسمح لك بالتحويم فوق الشاشة مثل الماوس في متصفحات الويب، وأسطح المكتب البعيدة، وما إلى ذلك</string>
+    
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">معدل استطلاع اللمس العالي</string>
+    <string name="high_touch_polling_rate_summary">زيادة معدل استطلاع الشاشة اللمسية</string>
+
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">مهلة البلوتوث</string>
+    <string name="bluetooth_timeout_summary">سيتم إيقاف البلوتوث بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم تكن هناك أجهزة متصلة</string>
+    <string name="bluetooth_timeout_summary2">عدم إيقاف البلوتوث تلقائيًا</string>
+
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">إيقاف Wi-Fi تلقائيًا</string>
+
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">سيتم إيقاف Wi-Fi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم تكن هناك شبكة متصلة</string>
+    <string name="wifi_timeout_summary2">معطل</string>
+
+    <!-- Text shown in private space setup screen which explains that apps in private space use their own VPN unless Global VPN is in effect. [CHAR LIMIT=NONE] -->
+    <string name="private_space_separate_vpn_text"><b>لا تستخدم التطبيقات VPN الحالي</b>\nلكي تستخدم التطبيقات الخاصة VPN، تحتاج إلى إعداده في مساحتك أيضًا. بدلاً من ذلك، يمكنك تشغيل VPN العالمي</string>
+    
+    <!-- Summary for the private space setup education screen. [CHAR LIMIT=NONE] -->
+    <string name="private_space_hide_apps_summary_calyx">إخفاء أو قفل التطبيقات الخاصة في مساحة منفصلة.</string>
+    
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">تطبيقات ملء الشاشة</string>
+    <string name="display_cutout_force_fullscreen_summary">إجبار التطبيقات على تجاهل مساحة الشق</string>
+    <string name="search">بحث</string>
+    <string name="search_apps">بحث التطبيقات</string>
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G الذكي</string>
+    <string name="smart_5g_summary">التبديل التلقائي بين 5G و4G لتقليل استهلاك البطارية</string>
+    
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">تحذير: قد لا يعمل هذا الخيار بشكل صحيح أو يؤدي إلى فقدان البيانات وبالتالي لا يوصى به!</string>
+
+    <!-- Doze on double tap -->
+     <string name="double_tap_title">النقر المزدوج</string>
+     <string name="doze_double_tap_title">النقر المزدوج للغفوة</string>
+     <string name="doze_double_tap_summary">نبض الإشعارات بالنقر المزدوج</string>
+     
+     <!-- Brightness control -->
+     <string name="status_bar_brightness_control_title">تحكم السطوع</string>
+     <string name="status_bar_brightness_control_summary">ضبط السطوع عن طريق الانزلاق عبر شريط الحالة</string>
+
+         <!-- Double Tap to sleep on status bar -->
+      <string name="status_bar_double_tap_to_sleep_title">النقر للنوم (شريط الحالة)</string>
+      <string name="status_bar_double_tap_to_sleep_summary">النقر المزدوج على شريط الحالة لإطفاء الشاشة</string>
+ 
+      <!-- Double Tap to sleep on lockscreen -->
+     <string name="lockscreen_doubletap_sleep_title">النقر للنوم (شاشة القفل)</string>
+     <string name="lockscreen_doubletap_sleep_summary">النقر المزدوج على شاشة القفل لوضع الجهاز في وضع النوم</string>
+
+    <!-- Cloudflare DNS Option -->
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
+    <!-- Cloudflare DNS hostname -->
+    <string name="private_dns_hostname_cloudflare" translatable="false">one.one.one.one</string>
+    
+    <!-- AdGuard DNS Option -->
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+    <!-- AdGuard DNS hostname -->
+    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
+
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">الشحن السريع</string>
+    <string name="fast_charging_summary">تعطيل لتقليل الحرارة الناتجة عن الجهاز أثناء الشحن أو لإطالة عمر البطارية</string>
+    <string name="restricted_current_summary">تعيين الحد الأقصى للتيار المسموح به (mA)</string>
+    <string name="fastcharge_disabled_extended_summary">الشحن محدود إلى: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
+
+    <!-- Generic support strings -->
+    <string name="string_enabled">مفعل</string>
+    <string name="string_disabled">معطل</string>
+    <string name="string_on">تشغيل</string>
+    <string name="string_off">إيقاف</string>
+
+    <!-- Idle manager -->
+    <string name="idle_manager_title">مدير الخمول</string>
+    <string name="idle_manager_summary">إيقاف جميع العمليات الخلفية غير الضرورية عندما يكون الجهاز خاملاً</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">السماح بالوصول إلى الشبكة</string>
+    <string name="data_usage_app_restrict_all_summary">تمكين استخدام الشبكة</string>
+
+    <string name="data_usage_app_restrict_mobile">بيانات الهاتف</string>
+    <string name="data_usage_app_restrict_mobile_summary">تمكين استخدام بيانات الهاتف</string>
+    <string name="data_usage_app_restrict_vpn">بيانات VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">تمكين استخدام بيانات VPN</string>
+    <string name="data_usage_app_restrict_wifi">بيانات Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">تمكين استخدام بيانات Wi\u2011Fi</string>
+
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">إظهار Ambient</string>
+    <string name="doze_gesture_ambient_summary">إظهار Ambient Display بدلاً من إيقاظ الشاشة بالكامل</string>
+
+     <!-- Dashboard messages -->
+      <string name="dashboard_morning1">ابدأ يومك بإيجابية!</string>
+      <string name="dashboard_morning2">لقد طلعت الشمس!</string>
+      <string name="dashboard_morning3">صباح جميل</string>
+      <string name="dashboard_morning4">يوم آخر للعيش</string>
+      <string name="dashboard_morning5">يوم جديد</string>
+      <string name="dashboard_morning_greeting1">صباح الخير</string>
+      <string name="dashboard_morning_greeting2">يوم سعيد</string>
+      <string name="dashboard_noon1">عش حياتك</string>
+      <string name="dashboard_noon2">استمتع بغروب الشمس</string>
+      <string name="dashboard_noon3">مرحبًا بالمنزل</string>
+      <string name="dashboard_noon4">استمتع باليوم!</string>
+      <string name="dashboard_noon5">مرحبًا بعودتك</string>
+      <string name="dashboard_noon_greeting1">مساء الخير</string>
+      <string name="dashboard_early_night1">الليل قادم</string>
+      <string name="dashboard_early_night2">حان وقت العشاء!</string>
+      <string name="dashboard_early_night_greeting1">مساء الخير</string>
+      <string name="dashboard_night3">أحلام سعيدة!</string>
+      <string name="dashboard_night4">حان وقت النوم الآن</string>
+      <string name="dashboard_night5">نم جيدًا!</string>
+      <string name="dashboard_night_greetings1">تصبح على خير</string>
+      <string name="dashboard_midnight1">استمتع بالصمت</string>
+      <string name="dashboard_midnight2">حب لا نهائي</string>
+      <string name="dashboard_midnight3">احصل على بعض النوم</string>
+      <string name="dashboard_midnight4">خذ قسطًا من الراحة</string>
+      <string name="dashboard_midnight5">تنام متأخرًا؟</string>
+      <string name="dashboard_random1">مرحبًا         </string>
+      <string name="dashboard_random2">أهلاً       </string>
+      <string name="dashboard_random3">ناماستي     </string>
+      <string name="dashboard_random4">يوم سعيد    </string>
+      <string name="dashboard_random5">أهلاً بك     </string>
+      <string name="dashboard_random6">ما الأخبار  </string>
+      <string name="dashboard_random_greetings1">حاول العثور على بعض الأسرار!</string>
+      <string name="dashboard_random_greetings2">كن لا نهائيًا!</string>
+      <string name="dashboard_random_greetings3">حاول استخدام شريط البحث!</string>
+      <string name="dashboard_random_greetings4">استمتع بيومك!</string>
+      <string name="settings_random1">تبحث عن شيء ما؟</string>
+      <string name="settings_random2">ابحث وسترى</string>
+      <string name="settings_random3">ابحث وستجد</string>
+      <string name="settings_random4">ابحث في إنفينيتي</string>
+      <string name="settings_random5">ابحث في الإعدادات</string>
+      <string name="settings_random6">احلم كبيرًا وتجرأ على الفشل</string>
+      <string name="default_user">مستخدم</string>
+
+<!-- About phone -->
+<string name="text_processor">المعالج</string>
+<string name="text_display">الشاشة</string>
+<string name="text_battery">البطارية</string>
+<string name="text_camera">الكاميرا</string>
+<string name="text_ram_">الذاكرة العشوائية:</string>
+<string name="text_rom_">ذاكرة التخزين:</string>
+<string name="text_maintainer">المشرف</string>
+<string name="text_kernel_version">النواة</string>
+<string name="official_build_suffix">- رسمي</string>
+<string name="unofficial_build_suffix">- غير رسمي</string>
+<string name="ram_active_label">نشط</string>
+
+<!-- Security -->
+<string name="security_settings_face_enroll_introduction_info_title_en">تنبيه</string>
+<string name="security_settings_face_enroll_introduction_how_title_en">كيف يعمل</string>
+
+<string name="security_settings_face_enroll_introduction_info_glasses_en">النظارات أو النظارات الشمسية الفاتحة مقبولة.</string>
+<string name="security_settings_face_enroll_introduction_info_looking_en">مجرد النظر إلى الهاتف يمكن أن يفتحه حتى عندما لا تنوي ذلك. يمكن أيضًا فتح هاتفك بواسطة شخص يشبهك كثيرًا، مثل شقيق متطابق، أو إذا قام شخص ما برفعه إلى وجهك.</string>
+<string name="security_settings_face_enroll_introduction_info_less_secure_en">استخدام الوجه لفتح الهاتف قد يكون أقل أمانًا من نمط قوي أو رمز PIN.</string>
+<string name="security_settings_face_enroll_introduction_info_gaze_en">يمكن أن يتطلب فتح الوجه أن تكون عيناك مفتوحتين لفتح الهاتف أو التحقق من أنك أنت. يمكنك تشغيل هذا الخيار في أي وقت في الإعدادات.</string>
+<string name="security_settings_face_enroll_introduction_how_message_en">يقوم فتح الوجه بإنشاء نموذج فريد لوجهك للتحقق من أنك أنت. لإنشاء نموذج الوجه هذا أثناء الإعداد، ستقوم بأخذ صور لوجهك من زوايا مختلفة.\n\nعند استخدام فتح الوجه، يتم استخدام الصور لتحديث نموذج وجهك. الصور المستخدمة لإنشاء نموذج وجهك لا يتم تخزينها، ولكن يتم تخزين نموذج الوجه بشكل آمن على هاتفك ولا يغادره أبدًا. تتم جميع العمليات بشكل آمن على هاتفك.</string>
+<string name="security_settings_face_enroll_introduction_control_title_en">أنت المسيطر</string>
+<string name="security_settings_face_enroll_introduction_control_message_en">يمكنك حذف نموذج وجهك أو إيقاف تشغيل فتح الوجه في أي وقت في الإعدادات. يتم تخزين نماذج الوجه على الهاتف حتى تقوم بحذفها.\n\nاعرف المزيد على g.co/pixel/faceunlock.</string>
+
+<!-- Menu option for not validating the EAP server -->
+<string name="wifi_do_not_validate_eap_server">لا تقم بالتحقق</string>
+<!-- Warning message displayed if user choses not to validate the EAP server -->
+<string name="wifi_do_not_validate_eap_server_warning">لم يتم تحديد شهادة. لن يكون اتصالك خاصًا.</string>
+
+<!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+<string name="refresh_rate_title">معدل التحديث</string>
+<string name="refresh_rate_summary_vrr_off">%d هرتز</string> 
+<string name="refresh_rate_summary_vrr_on">%d هرتز (تلقائي)</string>
+<string name="refresh_rate_vrr_title">معدل التحديث التلقائي</string> 
+<string name="refresh_rate_vrr_summary">خفض معدل التحديث تلقائيًا عندما تكون الشاشة خاملة، لتوفير الطاقة. قد يسبب هذا وميضًا أو تغيرًا في اللون على بعض الشاشات</string> 
+<string name="refresh_rate_footer">معدل التحديث الأعلى يجعل الشاشة أكثر سلاسة، لكنه يزيد من استهلاك الطاقة</string>
+<string name="keywords_refresh_rate">تحديث، معدل، سلاسة، ذروة، 60هرتز، 90هرتز، 120هرتز، 144هرتز، 165هرتز</string>
+
+<!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+<string name="dark_ui_activation_on_custom">تشغيل حتى <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+<!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+<string name="dark_ui_activation_off_custom">إيقاف حتى <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+<!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+<string name="accessibility_text_reading_options_summary">تخصيص حجم الشاشة، الخط والنص</string>
+
+<!-- Wi-Fi MAC address randomization -->
+<string name="wifi_per_connection_random_mac_addr">استخدام MAC عشوائي لكل اتصال (افتراضي)</string>
+<string name="wifi_per_network_random_mac_addr">استخدام MAC عشوائي لكل شبكة</string>
+<string name="wifi_device_mac_addr">استخدام MAC الجهاز</string>
+
+<!-- Brightness Slider key -->
+<string name="brightness_slider_key">brightness_slider</string>
+
+<!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+<string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+
+<!-- Schedule Dark Theme -->
+<string name="dark_theme_schedule">جدولة الوضع المظلم</string>
+
+<!-- Game space -->
+<string name="game_space_title">مساحة الألعاب</string>
+<string name="game_space_summary">عزز تجربة الألعاب لديك</string>
+
+<!-- Hide IME space -->
+<string name="hide_ime_space_style_title">إخفاء مساحة لوحة المفاتيح</string>
+<string name="hide_ime_space_style_0">افتراضي</string>
+<string name="hide_ime_space_style_1">ضيق</string>
+<string name="hide_ime_space_style_2">مخفي</string>
+
+<!-- Custom actions -->
+<string name="action_nothing">لا إجراء</string>
+<string name="action_menu">القائمة</string>
+<string name="action_app_switch">التطبيقات الحديثة</string>
+<string name="action_search">المساعد</string>
+<string name="action_voice_search">البحث الصوتي</string>
+<string name="action_launch_camera">الكاميرا</string>
+<string name="action_last_app">التطبيق الأخير</string>
+<string name="action_splitscreen">تقسيم الشاشة</string>
+<string name="action_flashlight">الفلاش</string>
+<string name="action_clear_notifications">مسح الإشعارات</string>
+<string name="action_volume_panel">لوحة الصوت</string>
+<string name="action_screen_off">إيقاف الشاشة</string>
+<string name="action_notifications">الإشعارات</string>
+<string name="action_power_menu">قائمة الطاقة</string>
+<string name="action_screenshot">لقطة الشاشة</string>
+<string name="action_qs_panel">لوحة الإعدادات السريعة</string>
+<string name="action_app_action">التطبيق</string>
+<string name="action_ringer_modes">أنظمة الجرس</string>
+<string name="kill_app">إغلاق التطبيق الأمامي</string>
+<string name="recent_app_toggle">تبديل التطبيق الحديث</string>
+
+<!-- Long swipe gestures -->
+<string name="advance_gesture_title">إيماءات متقدمة</string>
+<string name="navbar_gesture_tweaks_pref_title">خيارات الإيماءات المتقدمة</string>
+<string name="navbar_gesture_tweaks_pref_summary">تخصيص الإيماءات وتعيين إجراءات مخصصة</string>
+<string name="navbar_gesture_tweaks_cat_title">متقدم</string>
+<string name="swipe_app_select_summary">حدد تطبيقًا لفتحه بإيماءة الضغط</string>
+<string name="left_swipe_actions_title">إيماءة السحب الطويلة لليسار</string>
+<string name="left_swipe_app_action_title">حدد تطبيق السحب الطويل لليسار</string>
+<string name="right_swipe_actions_title">إيماءة السحب الطويلة لليمين</string>
+<string name="right_swipe_app_action_title">حدد تطبيق السحب الطويل لليمين</string>
+<string name="left_vertical_swipe_actions_title">إيماءة السحب العمودية لليسار</string>
+<string name="left_vertical_swipe_app_action_title">حدد تطبيق السحب العمودي لليسار</string>
+<string name="right_vertical_swipe_actions_title">إيماءة السحب العمودية لليمين</string>
+<string name="right_vertical_swipe_app_action_title">حدد تطبيق السحب العمودي لليمين</string>
+<string name="gesture_nav_tweaks_footer_info">لاختيار نشاط تطبيق معين للإجراء، اضغط مطولاً على أي تطبيق في منتقي التطبيقات.\n\nإذا كانت قائمة التطبيقات ظاهرة، قم بالسحب في الجزء السفلي جدًا من الشاشة لتنشيط الإجراء.</string>
+<string name="back_swipe_extended_title">إيماءة السحب الممتدة</string>
+<string name="back_swipe_extended_summary">تنشيط الإجراء عند السحب على نطاق أوسع (أكثر من نصف حجم الشاشة)، أو السحب العمودي (عموديًا لفترة كافية)</string>
+</resources>

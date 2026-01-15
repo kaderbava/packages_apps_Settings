@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="urn:oasis:names:tc:xliff:document:1.2">
+
+    
+    <string name="copied_to_clipboard">已複製到剪貼簿</string>
+    <string name="longpress_to_clipboard">長按複製</string>
+
+    
+    <string name="notification_log_summary">顯示通知歷史紀錄</string>
+
+     
+    <string name="package_details_group_title">套件詳細資料</string>
+    <string name="package_name">套件名稱</string>
+    <string name="package_version">套件版本</string> 
+    <string name="package_version_text"><ns0:g id="version_num">%1$s</ns0:g></string>
+    
+    
+    <string name="device_info_protected_single_press">Tap to show info</string>
+    
+    
+    <string name="about_device_name">裝置</string>
+    <string name="infinity_version">Infinity version</string>
+    <string name="infinity_version_default">Unknown</string>
+    <string name="keywords_infinity_version">Infinity X version, infinity x version</string>
+
+    
+    <string name="build_date">建置日期</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">build date, build info</string>
+
+    
+    <string name="infinity_maintainer">Device Maintainer</string>
+
+    
+    <string name="device_market_name">Market Name</string>
+    <string name="soc_model">晶片型號</string>
+    <string name="total_ram">總記憶體</string>
+
+    
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    
+    
+     <string name="infinity_suite_dash_title">Infinity Suite</string>
+     <string name="infinity_suite_summary">Personalize your device further</string>
+     
+    
+    <string name="channel_light_settings_id" translatable="false">light_settings</string>
+    <string name="channel_light_settings_name">指示燈設定預覽</string>
+
+    
+    <string name="edit_light_settings">編輯指示燈設定</string>
+    <string name="pulse_speed_title">閃爍時的時間與頻率</string>
+    <string name="default_time">適中</string>
+    <string name="custom_time">自訂</string>
+    <string name="dialog_delete_title">刪除</string>
+    <string name="dialog_delete_message">移除選取的項目？</string>
+    <string name="brightness">亮度等級</string>
+    <string name="choose_app">選取應用程式</string>
+
+    
+    <string name="pulse_length_always_on">一律開啟</string>
+    <string name="pulse_length_very_short">極短</string>
+    <string name="pulse_length_short">短</string>
+    <string name="pulse_length_normal">適中</string>
+    <string name="pulse_length_long">長</string>
+    <string name="pulse_length_very_long">極長</string>
+    <string name="pulse_speed_very_fast">極快</string>
+    <string name="pulse_speed_fast">快</string>
+    <string name="pulse_speed_normal">適中</string>
+    <string name="pulse_speed_slow">慢</string>
+    <string name="pulse_speed_very_slow">極慢</string>
+
+    
+    <string name="light_brightness_title">亮度等級</string>
+    <string name="light_brightness_normal">適中</string>
+    <string name="light_brightness_zen">勿擾模式</string>
+
+    
+    <string name="battery_light_title">電量指示燈</string>
+    <string name="battery_light_summary">自訂電量指示燈充電規則</string>
+    <string name="battery_light_enable_title">啟用電量指示燈</string>
+    <string name="battery_low_pulse_title">電量不足時閃爍指示燈</string>
+    <string name="battery_light_full_charge_disabled_title">完全充電時關閉</string>
+    <string name="battery_light_list_title">色彩</string>
+    <string name="battery_light_low_color_title">電量不足</string>
+    <string name="battery_light_medium_color_title">充電中</string>
+    <string name="battery_light_full_color_title">已充電(90%)</string>
+    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
+    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
+
+    
+    <string name="notification_light_title">通知提示燈</string>
+    <string name="notification_light_summary">自訂通知指示燈規則</string>
+    <string name="notification_light_enable_title">啟用通知指示燈</string>
+    <string name="notification_light_general_title">一般</string>
+    <string name="notification_light_advanced_title">進階</string>
+    <string name="notification_light_applist_title">應用程式</string>
+    <string name="notification_light_phonelist_title">手機</string>
+    <string name="notification_light_use_custom">使用自訂參數</string>
+    <string name="notification_light_default_value">預設值</string>
+    <string name="notification_light_missed_call_title">未接來電</string>
+    <string name="notification_light_voicemail_title">語音留言</string>
+    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
+    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
+    <string name="notification_light_screen_on">螢幕開啟時依然使用指示燈</string>
+    <string name="notification_light_zen_mode">勿擾模式下使用指示燈</string>
+    <string name="keywords_lights_brightness_level">降低 LED 亮度</string>
+    <string name="notification_light_automagic">自動選擇顏色</string>
+    <string name="notification_light_automagic_summary">正在自動選擇顏色</string>
+
+    
+    <string name="led_notification_title">指示燈設定</string>
+    <string name="led_notification_text">已透過設定啟用 LED 指示燈</string>
+    <string name="notification_light_add_apps_empty_summary">若要自訂個別應用程式的指示燈，請先啟用「%1$s」然後按下「新增」按鈕。</string>
+     
+    
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    
+    
+     <string name="fingerprint_enroll_find_sensor_message_front">尋找位於手機正面的指紋感測器</string>
+     <string name="fingerprint_enroll_find_sensor_message_rear">尋找位於手機背面的指紋感測器</string>
+     <string name="fingerprint_enroll_find_sensor_message_side">尋找位於手機側面的指紋感測器</string>
+          
+     
+     <string name="fingerprint_enroll_touch_dialog_message_front">輕觸位於手機正面的指紋感測器</string>
+     <string name="fingerprint_enroll_touch_dialog_message_rear">輕觸位於手機背面的指紋感測器</string>
+     <string name="fingerprint_enroll_touch_dialog_message_side">輕觸位於手機側面的指紋感測器</string>
+          
+     
+     <string name="storage_warning_internal">警告：此選項可能無法正常運作或導致資料遺失，因此並不建議使用。</string>
+     
+     
+    <string name="density_category">Density options</string>
+     
+    
+    <string name="radio_info_title">無線連接資訊</string>
+    
+    
+    <string name="lock_screen_auto_pin_confirm_summary_custom">當您輸入正確的 PIN 碼時自動解鎖。安全性會略低於點擊確認按鈕進行密碼確認。</string>
+    
+    
+    <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
+
+    
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
+    
+    
+    <string name="app_play_store">Google Play</string>
+    
+    
+    <string name="battery_temperature">溫度</string>
+    <string name="battery_stat_temp">Temperature</string>
+    <string name="battery_stat_capacity">Capacity</string>
+    <string name="battery_stat_cycle">Cycle</string>
+    <string name="status_unavailable">Unknown</string>
+
+    
+    <string name="default_user">User</string>
+    
+    
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    
+    
+    <string name="cellular_data_title">Mobile data</string>
+
+    
+    <string name="app_volume">應用程式音量</string>
+    <string name="app_volume_title">個別應用程式音量控制</string>
+    <string name="app_volume_summary">允許為個別應用程式設定不同的音量\n注意：這將啟用多重音訊焦點</string>
+          
+    
+    <string name="app_notification_sound_timeout_title">最短通知音效間隔時間</string>
+    <string name="app_notification_sound_timeout_summary_template">允許音效或震動每一次不超過 <ns0:g id="duration">%1$s</ns0:g></string>
+    <string name="app_notification_sound_timeout_value_none">沒有限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分鐘</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分鐘</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分鐘</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分鐘</string>
+     
+     
+    <string name="display_rotation_title">螢幕旋轉設定</string>
+    <string name="display_rotation_enabled">啟用自動旋轉</string>
+    <string name="display_rotation_disabled">停用自動旋轉</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">螢幕旋轉模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
+    
+    
+    <string name="tethering_allow_vpn_upstreams_title">允許連線裝置使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許熱點客戶端使用此裝置\u2019的 VPN 連線進行上遊連接</string>
+    
+    
+    <string name="screenshot_shutter_sound_title">螢幕截圖音效</string>
+    
+    
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation
+          bar</string>
+          
+    
+    <string name="high_touch_sensitivity_title">手套模式</string>
+    <string name="high_touch_sensitivity_summary">提高螢幕的觸控靈敏度，因此戴著手套也可以使用手機</string>
+
+    
+    <string name="touchscreen_hovering_title">懸浮操作</string>
+    <string name="touchscreen_hovering_summary">允許您把手指懸浮在螢幕上作為瀏覽器、遠端桌面等的滑鼠</string>
+          
+    
+    <string name="high_touch_polling_rate_title">高觸控輪詢率</string>
+    <string name="high_touch_polling_rate_summary">提高觸控輪詢率</string>
+    
+    
+    <string name="proximity_wake_title">防止意外喚醒</string>
+    <string name="proximity_wake_summary">喚醒螢幕前檢查距離感測器</string>
+    
+    
+    <string name="charging_sounds_nos_title">Charging sound</string>
+    <string name="charging_vibro_title">Charging vibration</string>
+    
+    
+    <string name="power_button_torch_title">快速開啟手電筒</string>
+    <string name="power_button_torch_summary">螢幕關閉時，長按電源按鈕即可啟用手電筒</string>
+    <string name="torch_long_press_power_timeout_title">自動關閉手電筒</string>
+    <string name="torch_long_press_power_timeout_never">永遠不要</string>
+    <string name="torch_long_press_power_timeout_1min">1 分鐘</string>
+    <string name="torch_long_press_power_timeout_2min">2 分鐘</string>
+    <string name="torch_long_press_power_timeout_5min">5 分鐘</string>
+    <string name="torch_long_press_power_timeout_10min">10 分鐘</string>
+    
+    
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+
+    
+    <string name="volume_steps_title">音量級別</string>
+    <string name="volume_steps_summary">控制個別應用的音量級別</string>
+    <string name="max_music_volume_title">媒體</string>
+    <string name="max_call_volume_title">通話</string>
+    <string name="max_alarm_volume_title">鬧鐘</string>
+    <string name="steps_unit">級別</string>
+
+    
+    <string name="charging_control_title">充電控制</string>
+    <string name="charging_control_summary">自訂裝置的充電時間和限制</string>
+    <string name="charging_control_enable_title">啟用充電控制</string>
+    <string name="charging_control_mode_title">充電模式</string>
+    <string name="charging_control_mode_auto_title">自動排程</string>
+    <string name="charging_control_mode_auto_summary">依鬧鐘設定自動判斷何時開始充電</string>
+    <string name="charging_control_mode_custom_title">自訂排程</string>
+    <string name="charging_control_mode_custom_summary">設定充滿電池的目標時間</string>
+    <string name="charging_control_mode_limit_title">限制充電</string>
+    <string name="charging_control_mode_limit_summary">限制充電到特定百分比</string>
+    <string name="charging_control_start_time_title">開始時間</string>
+    <string name="charging_control_start_time_summary">當您在 %s 後開始充電時，充電控制將會啟用</string>
+    <string name="charging_control_target_time_title">充滿電池的目標時間</string>
+    <string name="charging_control_target_time_summary">電池將會在 %s 前完全充滿</string>
+    <string name="charging_control_limit_title">限制</string>
+    <string name="reset">Reset</string>
+
+    
+    <string name="fast_charging_title">快速充電</string>
+    <string name="fast_charging_summary">停用以減少裝置在充電時產生的熱量及延長電池的使用壽命</string>
+    <string name="restricted_current_summary">設定允許的最大電流 (mA)</string>
+    <string name="fastcharge_disabled_extended_summary">Charge limited to: <ns0:g id="current" example="3000 mA">%1$s</ns0:g>.</string>
+
+    
+    <string name="string_enabled">已啟用</string>
+    <string name="string_disabled">停用</string>
+    <string name="string_on">開啟</string>
+    <string name="string_off">關閉</string>
+    
+    
+    <string name="lockpattern_settings_enable_error_path_title">顯示解鎖圖形錯誤</string>
+    
+    <string name="lockpattern_settings_enable_dots_title">顯示解鎖圖形</string>
+    
+    
+    <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
+    <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string>
+    <string name="lock_pattern_size_5" translatable="false">5 \u00d7 5</string>
+    <string name="lock_pattern_size_6" translatable="false">6 \u00d7 6</string>
+    <string name="lock_settings_picker_pattern_size_message">選擇解鎖圖形大小</string>
+    
+    
+    <string name="unlock_scramble_pin_layout_title">亂序佈局</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 碼鍵盤</string>
+
+    
+    <string name="gesture_navbar_length_title">導航條長度</string>
+    <string name="short_label">短</string>
+    <string name="long_label">長</string>
+    
+    
+    <string name="back_height_low_label">全螢幕</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_height_title">返回手勢觸發高度</string>
+    <string name="back_height_summary">調整能夠觸發返回手勢的高度</string>
+    
+    
+    <string name="background_processes_settings_title">背景處理程序</string>
+
+    
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+
+    
+    <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
+    <string name="display_cutout_force_fullscreen_summary">強制應用程式忽略瀏海區域</string>
+    <string name="display_cutout_force_fullscreen_search">Search</string>
+    <string name="display_cutout_force_fullscreen_search_apps">Search apps</string>
+
+    
+    <string name="gesture_settings_title">Gesture Navigation</string>
+
+    
+    <string name="show_navbar_gesture_bar_title">Gesture bar</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
+
+    
+    <string name="navigation_bar_ime_space_title">輸入法按鍵空間</string>
+    <string name="ime_narrow">緊湊</string>
+    <string name="ime_default">預設值</string>
+    <string name="ime_hidden">隱藏</string>
+
+    
+    <string name="dc_dimming_title">DC 調光</string>
+    <string name="dc_dimming_info">在低光源環境中透過減少螢幕的閃爍次數來降低對眼睛的負擔。此功能可能導致螢幕顯示品質降低、色彩失準或耗電量增加等問題。</string>
+    <string name="dc_dimming_main_switch_title">使用 DC 調光</string>
+    <string name="keywords_display_dc_dimming">DC 調光、閃爍、眼睛、疲勞</string>
+
+    
+    <string name="live_display_summary">根據日夜和環境條件調整您的螢幕色溫，可改善可讀性和減少眼睛疲勞</string>
+    <string name="live_display_mode">顯示模式</string>
+    <string name="live_display_color_temperature_title">色溫</string>
+    <string name="live_display_color_temperature_summary">日間：<ns0:g id="day_temperature">%1$d</ns0:g>K  Night: <ns0:g id="night_temperature">%2$d</ns0:g>K</string>
+    <string name="live_display_color_temperature_label"><ns0:g id="degrees">%1$d</ns0:g>K</string>
+    <string name="live_display_day">日間</string>
+    <string name="live_display_night">夜間</string>
+    <string name="live_display_outdoor_mode_title">自動戶外模式</string>
+    <string name="live_display_outdoor_mode_summary">在陽光下自動調高螢幕亮度和飽和度</string>
+    <string name="live_display_anti_flicker_title">防閃爍</string>
+    <string name="live_display_anti_flicker_summary">在弱光環境下，可減少螢幕閃爍及眼睛疲勞。這可能會降低色彩準確性，並影響某些項目的顯示方式。</string>
+    <string name="live_display_low_power_title">降低耗電</string>
+    <string name="live_display_low_power_summary">在不降低亮度的情況下調整顯示即可降低耗電</string>
+    <string name="live_display_enhance_color_title">增強色彩</string>
+    <string name="live_display_enhance_color_summary">提高膚色、風景和其他影像的色彩鮮豔度</string>
+    <string name="live_display_color_profile_title">色彩設定檔</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">準確的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">現實的色彩和自然的膚色</string>
+    <string name="live_display_color_profile_dynamic_title">動態</string>
+    <string name="live_display_color_profile_dynamic_summary">增強的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_cinema_title">劇院</string>
+    <string name="live_display_color_profile_cinema_summary">完美重現影片色彩</string>
+    <string name="live_display_color_profile_astronomy_title">夜間</string>
+    <string name="live_display_color_profile_astronomy_summary">深紅色以保護夜間視力</string>
+    <string name="live_display_color_profile_photography_title">攝影</string>
+    <string name="live_display_color_profile_photography_summary">完美重現影像色彩</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">使用未校正的顯示</string>
+    <string name="live_display_color_profile_adaptive_title">自動調整</string>
+    <string name="live_display_color_profile_adaptive_summary">自動依照環境條件調整色彩</string>
+    <string name="live_display_color_profile_reading_title">閱讀</string>
+    <string name="live_display_color_profile_reading_summary">暖色調以減少眼睛疲勞</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">色彩校準到 sRGB 色域</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">色彩校準到 DCI-P3 色域</string>
+    <string name="live_display_reading_mode_title">閱讀模式</string>
+    <string name="live_display_reading_mode_summary">適合長期閱讀的灰階模式</string>
+    <string name="color_calibration_title">色彩校準</string>
+    <string name="color_calibration_summary">校準螢幕上的顏色</string>
+    <string name="color_red_title">強調色-紅色</string>
+    <string name="color_green_title">強調色-綠色</string>
+    <string name="color_blue_title">藍色</string>
+
+    
+    <string name="picture_adjustment_title">影像調整</string>
+    <string name="picture_adjustment_summary">調整色調、飽和度、強度和對比度</string>
+    <string name="adj_hue_title">色調</string>
+    <string name="adj_saturation_title">飽和度</string>
+    <string name="adj_intensity_title">強度</string>
+    <string name="adj_contrast_title">對比度</string>
+
+    
+    <string name="force_lte_ca">強制 LTE 載波聚合</string>
+    <string name="force_lte_ca_summary">強制啟用 LTE 載波聚合</string>
+
+    
+    <string name="bluetooth_timeout">自動關閉藍牙</string>
+    
+    <string name="bluetooth_timeout_summary">如果沒有連線到任何裝置，將在 <ns0:g id="timeout_description">%1$s</ns0:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary2">不要自動關閉藍牙</string>
+</resources>
