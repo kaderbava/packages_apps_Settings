@@ -64,7 +64,7 @@ public class UdfpsGesturePreferenceController extends BasePreferenceController {
             return UNSUPPORTED_ON_DEVICE;
         }
         if (!mContext.getResources().getBoolean(
-                com.android.internal.R.bool.config_supportsScreenOffUdfps)){
+                com.android.internal.R.bool.config_supportScreenOffUdfps)){
             return UNSUPPORTED_ON_DEVICE;
         }
         return AVAILABLE;
